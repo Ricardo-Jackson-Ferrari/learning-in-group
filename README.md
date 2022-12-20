@@ -1,2 +1,3 @@
 # learning-in-group
->>>>>>> refs/remotes/origin/main
+
+Atualização do readme
