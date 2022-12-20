@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'hello_world'
 ]
 
 MIDDLEWARE = [
@@ -107,7 +108,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-    BASE_DIR / 'templates/statics'
+    os.path.join(BASE_DIR, 'templates/static')
 ]
 
 # Default primary key field type
